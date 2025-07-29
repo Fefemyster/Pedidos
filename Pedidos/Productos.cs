@@ -8,7 +8,8 @@ namespace Pedidos
         public string Nombre { get; set; }
         public decimal Precio { get; set; }
         public int Stock { get; set; }
-        public void MostrarInformacion()
+
+        public virtual void MostrarInformacion()
         {
             Console.WriteLine("****Datos del Producto****");
             Console.WriteLine($"ID: {Id}");
