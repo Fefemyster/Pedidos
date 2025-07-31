@@ -41,8 +41,19 @@ libro.Nombre = "NieR: Automata World Guide Volume 1";
 libro.Precio = 25;
 libro.Stock = 10;
 libro.ISBN = "150671031X";
-libro.Autor = "Dark Horse Books";
+libro.Autor = "Square Enix";
 libro.NumeroPaginas = 192;
 libro.MostrarInformacion();
+
+Libro libro1 = new Libro();
+libro1.Id = 5;
+libro1.Nombre = "NieR: Automata World Guide Volume 2";
+libro1.Precio = 25;
+libro1.Stock = 15;
+libro1.ISBN = " 1506715753";
+libro1.Autor = "Square Enix";
+libro1.NumeroPaginas = 304;
+libro1.MostrarInformacion();
+
 
 Console.ReadLine();
